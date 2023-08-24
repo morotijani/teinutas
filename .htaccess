@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteRule ^.in/blog/([0-9a-zA-Z]+)$ .in/blog.php?type=$1 [NC,L]
+RewriteRule ^.in/blog/([0-9a-zA-Z_-]+)/([0-9a-zA-Z_-]+)$ .in/blog.php?type=$1&status=$2 [NC,L]
+RewriteRule ^.in/blog/([0-9a-zA-Z_-]+)/([0-9a-zA-Z_-]+)/([0-9]+)$ .in/blog.php?type=$1&status=$2&id=$3 [NC,L]
+RewriteRule ^.in/blog/([0-9a-zA-Z_-]+)/([0-9a-zA-Z_-]+)/([0-9]+)/([0-9]+)$ .in/blog.php?type=$1&status=$2&id=$3&featured=$4 [NC,L]
+
+RewriteRule ^view/([a-zA-Z0-9-/]+)$ view.php?url=$1 [NC,L]
+RewriteRule ^view/([a-zA-Z-0-9-]+)/ view.php?url=$1 [NC,L]
+
+RewriteRule ^category/([a-zA-Z0-9-/]+)$ category.php?url=$1 [NC,L]
+RewriteRule ^category/([a-zA-Z-0-9-]+)/ category.php?url=$1 [NC,L]
+
+RewriteRule ^search/([a-zA-Z0-9-/]+)$ search.php?q=$1 [NC,L]
+RewriteRule ^search/([a-zA-Z-0-9-]+)/ search.php?q=$1 [NC,L]
+
+RewriteRule ^dues.paid/([0-9a-zA-Z]+)$ dues.paid.php?level=$1 [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond $1 !^(media|helpers|fonts|dist|controller|.in|connection|robots\.txt)
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#ErrorDocument 404 http://127.0.0.1/asteelu/404.html
