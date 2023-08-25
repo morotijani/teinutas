@@ -441,7 +441,7 @@
 				                        <div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
 				                            <div class="w-100 my-auto">
 				                                <!-- Card category -->
-				                                <a href="#" class="badge text-bg-danger mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>' . ucwords($row[0]["category"]) . '</a>
+				                                <a href="' . PROOT . 'category/' . $row[0]["category_url"] . '" class="badge text-bg-danger mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>' . ucwords($row[0]["category"]) . '</a>
 				                                <!-- Card title -->
 				                                <h2 class="text-white display-5">' . ucwords($row[0]["news_title"]) . '</h2>
 				                                <!-- Card info -->
@@ -645,8 +645,7 @@
 					';
 				}
 			} else {
-			return 'asem';
-
+				// return 'asem';
 			}
 			return $this->output_poupular;
 		}
