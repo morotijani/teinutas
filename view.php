@@ -8,7 +8,7 @@
     if (isset($_GET['url']) && !empty($_GET['url'])) {
         $newsUrl = $_GET['url'];
     } else {
-        redirect(PROOT . 'news/');
+        redirect(PROOT);
     }
 
     include ('news.header.php');
