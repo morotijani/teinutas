@@ -65,8 +65,8 @@ Footer START -->
                             <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>get-membership-card">TEIN Card</a></li>
                             <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>pay.dues.php">Dues</a></li>
                             <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>executives">Executives</a></li>
-                            <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>">National</a></li>
-                            <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>">Regional</a></li>
+                            <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>national">National</a></li>
+                            <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>regional">Regional</a></li>
                             <li class="nav-item"><a class="nav-link pt-0" href="<?= PROOT; ?>gallery">Gallery</a></li>
                         </ul>
                     </div>
@@ -79,7 +79,7 @@ Footer START -->
                 <ul class="nav flex-column text-primary-hover">
                     <li class="nav-item"><a class="nav-link pt-0" href="#"><i class="fab fa-whatsapp fa-fw me-2"></i>WhatsApp</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube fa-fw me-2"></i>YouTube</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-bell fa-fw me-2"></i>Website Notifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://ndcgh.org/wp-content/uploads/2020/04/NDC-Constitution-mini.pdf"><i class="fa fa-book fa-fw me-2"></i>NDC Constitution</a></li>
                     <li class="nav-item"><a class="nav-link" href="javascript:;" data-bs-toggle="modal" data-bs-target="#subscribeModal"><i class="far fa-envelope fa-fw me-2"></i>Newsletters</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-headphones-alt fa-fw me-2"></i>Podcasts</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>about-us"><i class="fas fa-globe fa-fw me-2"></i>About us</a></li>
@@ -93,10 +93,10 @@ Footer START -->
                 <p class="text-muted">Download our App and get the latest Breaking News Alerts and latest headlines and daily articles near you.</p>
                 <div class="row g-2">
                     <div class="col">
-                        <a href="#"><img class="w-100" src="<?= PROOT; ?>dist/media/logo/app-store.svg" alt="app-store"></a>
+                        <a href="https://www.ndcteinapp.com"><img class="w-100" src="<?= PROOT; ?>dist/media/logo/app-store.svg" alt="app-store"></a>
                     </div>
                     <div class="col">
-                        <a href="#"><img class="w-100" src="<?= PROOT; ?>dist/media/logo/google-play.svg" alt="google-play"></a>
+                        <a href="https://www.ndcteinapp.com"><img class="w-100" src="<?= PROOT; ?>dist/media/logo/google-play.svg" alt="google-play"></a>
                     </div>
                 </div>
             </div>

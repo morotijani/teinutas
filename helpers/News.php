@@ -334,7 +334,7 @@
 			$row = $statement->fetchAll();
 
 			return '
-				<div class="col-12">
+				<div class="col-12 d-none d-lg-block">
                     <div class="card card-overlay-bottom card-grid-sm card-bg-scale" style="background-image:url(' . PROOT . $row[0]["news_media"] . '); background-position: center left; background-size: cover;">
                         <!-- Card Image -->
                         <!-- Card Image overlay -->
