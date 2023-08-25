@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://teinutas.org" />
     <meta property="og:site_name" content="TEIN - UTAS" />
     
-    <title>News · TEIN - CKTUTAS</title>
+    <title>News · TEIN - UTAS</title>
 
     <!-- Dark mode -->
     <script>
@@ -100,6 +100,7 @@
     <link rel="stylesheet" type="text/css" href="<?= PROOT; ?>vendor/css/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="<?= PROOT; ?>vendor/css/tiny-slider.css">
     <link rel="stylesheet" type="text/css" href="<?= PROOT; ?>vendor/css/plyr.css">
+    <link rel="stylesheet" type="text/css" href="<?= PROOT; ?>vendor/css/glightbox.css">
 
     <!-- Theme CSS -->
     <link id="style-switch" rel="stylesheet" type="text/css" href="<?= PROOT; ?>vendor/css/style.css">
@@ -277,7 +278,7 @@ Header START -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <!-- Logo START -->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="<?= PROOT; ?>">
                 <img class="navbar-brand-item light-mode-item" src="<?= PROOT; ?>dist/media/logo/logo.png" alt="logo">         
                 <img class="navbar-brand-item dark-mode-item" src="<?= PROOT; ?>dist/media/logo/logo.png" alt="logo">            
             </a>
@@ -333,7 +334,7 @@ Header START -->
             <div class="nav flex-nowrap align-items-center">
                 <!-- Nav Button -->
                 <div class="nav-item d-none d-md-block">
-                    <a href="#" class="btn btn-sm btn-danger mb-0 mx-2">Pay Dues!</a>
+                    <a href="<?= PROOT; ?>pay.dues" class="btn btn-sm btn-danger mb-0 mx-2">Pay Dues!</a>
                 </div>
                 <!-- Nav Search -->
                 <div class="nav-item dropdown dropdown-toggle-icon-none nav-search">

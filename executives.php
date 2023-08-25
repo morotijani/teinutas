@@ -46,7 +46,7 @@
                         <div class="card border p-3 h-100">
                             <div class="position-relative">
                                 <!-- Image -->
-                                <a href="javascript:;" class="position-relative z-index-10"><img class="card-img" src="<?= PROOT . $row["membership_passport"]; ?>" alt="" style="width: 100%; height: 250px; object-fit: cover; object-position: center;"></a>
+                                <a href="javascript:;" class="position-relative z-index-10"><img class="card-img" src="<?= PROOT . $row["membership_passport"]; ?>" alt="" style="width: 100%; height: 250px; object-fit: cover; object-position: top;"></a>
                                 <!-- Overlay -->
                                 <div class="card-img-overlay p-0">
                                     <span class="badge text-bg-success"><?= ucwords($row["membership_position"]); ?></span>

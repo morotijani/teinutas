@@ -161,9 +161,11 @@ Footer END -->
     <script src="<?= PROOT; ?>vendor/js/bootstrap.bundle.min.js"></script>
 
     <!-- Vendors -->
+    <script src="<?= PROOT; ?>vendor/js/isotope.pkgd.min.js"></script>
     <script src="<?= PROOT; ?>vendor/js/tiny-slider.js"></script>
     <script src="<?= PROOT; ?>vendor/js/sticky.min.js"></script>
     <script src="<?= PROOT; ?>vendor/js/plyr.js"></script>
+    <script src="<?= PROOT; ?>vendor/js/glightbox.js"></script>
 
     <!-- Template Functions -->
     <script src="<?= PROOT; ?>vendor/js/functions.js"></script>

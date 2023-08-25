@@ -66,6 +66,11 @@
                                     <span class=""><i class="bi bi-arrow-right"></i></span>
                                 </a>
                                 <hr aria-hidden="true" class="menu-hr">
+                                <a href="<?= PROOT; ?>.in/Gallery" class="list-group-item d-flex justify-content-between align-items-center bg-transparent text-white border-0">
+                                    <span class="menu-item"><i class="bi bi-camera"></i> Gallery</span>
+                                    <span class=""><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                                <hr aria-hidden="true" class="menu-hr">
                                 <a href="<?= PROOT; ?>.in/manage.account" class="list-group-item d-flex justify-content-between align-items-center bg-transparent text-white border-0">
                                     <span class="menu-item"><i class="bi bi-person"></i> Manage account</span>
                                     <span class=""><i class="bi bi-arrow-right"></i></span>
